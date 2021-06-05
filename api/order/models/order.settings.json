@@ -25,14 +25,13 @@
     "checkout_session": {
       "type": "string"
     },
-    "dish": {
-      "model": "dish",
-      "via": "orders"
-    },
     "users_permissions_user": {
       "plugin": "users-permissions",
       "model": "user",
       "via": "orders"
+    },
+    "dishes": {
+      "type": "json"
     }
   }
 }

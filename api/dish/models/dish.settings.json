@@ -35,10 +35,6 @@
     "restaurant": {
       "model": "restaurant",
       "via": "dishes"
-    },
-    "orders": {
-      "via": "dish",
-      "collection": "order"
     }
   }
 }
